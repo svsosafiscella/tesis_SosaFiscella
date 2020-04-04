@@ -6,6 +6,6 @@ Partimos de una carpeta que contenga el archivo .par con los parámetros del mod
 Para hacer timing según nbins
 -----------------------------
 
-1) Corremos el programa "arrugado.ipynb". Este creará 6 nuevas carpetas, las cuales contendrán copias de las observaciones originales pero arrugadas a nbins=512,256,128,64,32. Adicionalmente también copia a las nuevas carpetas los archivos .polycos y .bestprof, junto al archivo .par.
+1) Corremos el programa "arrugado.ipynb". Este creará 6 nuevas carpetas por antena, las cuales contendrán copias de las observaciones originales pero arrugadas a nbins=512,256,128,64,32. Adicionalmente también copia a las nuevas carpetas los archivos .polycos y .bestprof de cada observacin, junto al archivo .par del púlsar en cuestin.
 
 2)
