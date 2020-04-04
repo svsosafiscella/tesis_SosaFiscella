@@ -1,6 +1,6 @@
 # Tesis de Lincenciatura de Sofía Valentina Sosa Fiscella
 
-Partimos de una carpeta que contenga el \textbf{archivo}.par con los parámetros del modelo de timing, un directorio llamado templates (que contiene los templates de cada antena que vamos a usar) y dos directorios llamados A1 y A2 (que contienen las observaciones .pfd que vamos a usar, junto a sus correspondientes .polycos y .bestprof).
+Partimos de una carpeta que contenga el archivo.par con los parámetros del modelo de timing, un directorio llamado templates (que contiene los templates de cada antena que vamos a usar) y dos directorios llamados A1 y A2 (que contienen las observaciones .pfd que vamos a usar, junto a sus correspondientes .polycos y .bestprof).
 
 -----------------------------
 Para hacer timing según nbins
