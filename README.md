@@ -15,6 +15,6 @@ Para hacer timing según S/N
 Para hacer timing según nbins
 -----------------------------
 
-1) Corremos el programa "arrugado.ipynb". Este creará 6 nuevas carpetas por antena, las cuales contendrán copias de las observaciones originales pero arrugadas a nbins=512,256,128,64,32. Adicionalmente también copia a las nuevas carpetas los archivos .polycos y .bestprof de cada observacin, junto al archivo .par del púlsar en cuestin.
+1) Corremos el programa "arrugado.ipynb". Este creará 6 nuevas carpetas por antena, las cuales contendrán copias de las observaciones originales pero arrugadas a nbins=512,256,128,64,32. Adicionalmente también copia a las nuevas carpetas los archivos .polycos y .bestprof de cada observacin, junto al archivo .par del púlsar en cuestión.
 
 2) Corremos el programa "arrugado_templates.ipynb", el cual crea copias arrugadas de los templates, los cuales son guardados a su vez dentro de la misma carpeta templates (los templates usados para este trabajo se encuentran dentro de la carpeta templates del repositorio).
