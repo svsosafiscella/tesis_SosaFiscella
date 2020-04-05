@@ -3,7 +3,7 @@
 Partimos de una carpeta que contenga el archivo.par con los parámetros del modelo de timing y dos directorios llamados A1 y A2, que contienen las observaciones .pfd que vamos a usar junto a sus correspondientes .polycos y .bestprof.
 
 -----------------------------
-Crear un template
+Crear los templates
 -----------------------------
 
 Lo primero que necesitamos para poder calcular residuos es un template. En este trabajo optamos por tomar la observación de mayor S/N de cada antena y sacarle ruido para usarla como template. Ello está implementado en el programa "generate_templates.ipynb", el cual busca de entre todas las observaciones .pfd de cada antena aquella de mayor S/N, la convierte en un .fits mediante Psrchive, y le quita ruido por medio de la rutina psrsmooth.
