@@ -16,6 +16,13 @@ Timing según S/N
 
 2) Corremos el programa "sn_residuos.ipynb", el cual a partir de los archivos .tim generados en el paso anterior, calcula (para cada conjunto de S/N) el error sistemático que sumado a los errores de los TOAs resulta en un cálculo de residuos con un chi²~1. Luego calcula el correspondiente valor de RMS, y grafica ambas cantidades en función del S/N de cada conjunto.
 
+-----------------------------
+Timing según BW
+-----------------------------
+Para comparar los resultados de ambas antenas a igual BW y modos de polarización, usamos el programa "bw_timing.pynb". Dados los conjuntos de S/N definidos anteriormente: este programa
+1) A cada observación de A1, de 112 MHz de BW, la separa en dos sub-observaciones, cada una de 56 MHz de BW. Luego calcula el RMS para cada una de esas dos subandas y para las observaciones originales de A1.
+2) Al error en el TOA de cada observación de A2 lo multiplica por un factor sqrt(2), y calcula la RMS para las observaciones con los nuevos errores, y para las observaciones originales.
+3) Grafica la RMS en función de S/N para las observaciones originales y para las observaciones modificadas.
 
 -----------------------------
 Timing según nbins
