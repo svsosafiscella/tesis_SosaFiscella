@@ -9,7 +9,7 @@ Crear un template
 Lo primero que necesitamos para poder calcular residuos es un template. En este trabajo optamos por tomar la observación de mayor S/N de cada antena y sacarle ruido para usarla como template. Ello está implementado en el programa "generate_templates.ipynb", el cual busca de entre todas las observaciones .pfd de cada antena aquella de mayor S/N, la convierte en un .fits mediante Psrchive, y le quita ruido por medio de la rutina psrsmooth.
 
 -----------------------------
-Para hacer timing según S/N
+Timing según S/N
 -----------------------------
 
 1) Corremos el programa "sn_TOAs.ipynb", el cual carga todas las observaciones dadas a Pypulse y las separa en distintos conjuntos según su relación S/N. Después, para cada uno de esos conjuntos, calcula los TOAs de las observaciones y las guarda en archivos .tim
@@ -18,7 +18,7 @@ Para hacer timing según S/N
 
 
 -----------------------------
-Para hacer timing según nbins
+Timing según nbins
 -----------------------------
 
 1) Corremos el programa "arrugado.ipynb". Este creará 6 nuevas carpetas por antena, las cuales contendrán copias de las observaciones originales pero arrugadas a nbins=512,256,128,64,32. Adicionalmente también copia a las nuevas carpetas los archivos .polycos y .bestprof de cada observacin, junto al archivo .par del púlsar en cuestión.
