@@ -6,7 +6,7 @@ Partimos de una carpeta que contenga el archivo.par con los parámetros del mode
 Crear los templates
 -----------------------------
 
-Lo primero que necesitamos para poder calcular residuos es un template. En este trabajo optamos por tomar la observación de mayor S/N de cada antena y sacarle ruido para usarla como template. Ello está implementado en el programa "generate_templates.ipynb", el cual busca de entre todas las observaciones .pfd de cada antena aquella de mayor S/N, la convierte en un .fits mediante Psrchive, y le quita ruido por medio de la rutina psrsmooth.
+Lo primero que necesitamos para poder calcular residuos es un template. En este trabajo optamos por tomar la observación de mayor S/N de cada antena y sacarle ruido para usarla como template. Ello está implementado en el programa "generate_templates.ipynb", el cual busca de entre todas las observaciones .pfd de cada antena aquella de mayor S/N, la convierte en un .fits mediante Psrchive, y le quita ruido por medio de la rutina psrsmooth. Los nombres de las observaciones usadas como templates los guarda en archivos de salida aparte, de modo que después puedan ser levantadas por los programas que calculan TOAs, y que así sean excluídas del cálculo de TOAs.
 
 -----------------------------
 Timing según S/N
