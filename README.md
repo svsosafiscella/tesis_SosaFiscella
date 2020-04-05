@@ -1,6 +1,6 @@
 # Tesis de Lincenciatura de Sofía Valentina Sosa Fiscella
 
-Partimos de una carpeta que contenga el archivo.par con los parámetros del modelo de timing y dos directorios llamados A1 y A2 (que contienen las observaciones .pfd que vamos a usar, junto a sus correspondientes .polycos y .bestprof).
+Partimos de una carpeta que contenga el archivo.par con los parámetros del modelo de timing y dos directorios llamados A1 y A2, que contienen las observaciones .pfd que vamos a usar junto a sus correspondientes .polycos y .bestprof.
 
 -----------------------------
 Crear un template
