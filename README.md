@@ -25,4 +25,4 @@ Timing según nbins
 
 2) Corremos el programa "arrugado_templates.ipynb", el cual crea copias arrugadas de los templates, los cuales son guardados a su vez dentro de la misma carpeta templates.
 
-3) Corremnos el programa "nbins_TOAs.ipynb", el cual calcula los TOAs para las observaciones de cada de uno de los conjuntos generados en el paso anterior, y las guarda en archivos .tim
+3) Corremnos el programa "nbins_timing.ipynb", el cual calcula los TOAs para las observaciones de cada de uno de los conjuntos generados en el paso anterior, y las guarda en archivos .tim. A partir de estos TOAs, calcula los residuos de las observaciones dentro de cada conjunto y el valor de RMS correspondiente a los mismos. Luego, grafica los valores de RMS obtenidos en función del nbins de las observaciones de cada conjunto.
